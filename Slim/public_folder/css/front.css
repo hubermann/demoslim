@@ -1,0 +1,342 @@
+	body{background: #018249; font-size: 12px;font-family: 'Montserrat', sans-serif;}
+	header{margin-bottom: 0px;}
+	header #login{
+		height:40px;
+	}
+	
+	h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+		font-family:"Montserrat", Helvetica, Arial, sans-serif;!important
+	}
+	h2{font-weight: 700; letter-spacing: -1px;}
+	.green{color: #018249;}
+	.orange{color: #f28e1c;}
+	.line_orange{width: 100%; float: left; border-bottom: 2px solid  #f28e1c; margin:.6em 0 .6em 0; display: block;}
+	.line_orange_s{width: 100%; float: left; border-bottom: 1px solid  #f28e1c; margin:.6em 0 .6em 0; display: block;}
+	.bg_gris{background: #eee; border:1px solid #f2f2f2; float: left; width: 100%}
+	.inside{margin: 1em;}
+	.align_center{text-align: center;}
+	.separator {
+		padding: 30px 0px 30px 0px;
+		margin: 0px 0px 30px 0px;
+		border-bottom: 2px solid;
+		font-size: 36px;
+		letter-spacing: -2px;
+		line-height: 30px;
+		display: block;
+		clear: both;
+	}
+.error{color:red;}
+
+	#main_content{background: #fff; }
+	#menu_uno {font-size: 11px;}
+	#menu_uno li{float: left; list-style: none; color: #fff;}
+	#menu_uno li a{ padding-bottom: .5em; padding-top: .5em; color: #fff;margin:.5em; text-decoration: none; }
+
+	
+	#menu_dos {
+	  padding: 10px 0px;
+	}
+	#menu_dos li{float: left; list-style: none; text-transform: uppercase; font-size: 12px;}
+	#menu_dos li a{padding: .5em .8em;  color: #018249; text-decoration: none;}
+	#menu_dos li a:hover{padding: .5em .8em; background:#018249;  color: #FFF;}
+	#menu_dos li a:active{padding: .5em .8em; background:#018249;  color: #FFF;}
+
+	.no-gutter [class*="-6"] {
+    	padding:0;
+	}
+
+	.no-gutter [class*="-12"] {
+    	padding:0;
+	}
+
+
+	/*****  PARA COLUMNAS DE 7 *****/
+	.row.no-gutters {
+	margin-right: 0;
+	margin-left: 0;
+	}
+	.row.no-gutters > [class^="col-"],
+	.row.no-gutters > [class*=" col-"] {
+	padding-right: 0;
+	padding-left: 0;
+	}
+	
+	#main_content {
+		padding: 35px;
+	}
+	#carousel-productos, #carousel-novedades{float: left;}
+	
+	footer{margin-bottom: 4em; margin-top: 2em; color: #8ad1b1;font-family:Arial, Helvetica, sans-serif;}
+	footer h4 {
+	  color: #FFF;
+	  font-size: 14px;
+	  font-weight: normal;
+	}
+	#footer_servicios_links, #footer_productos_links{color: #fff; float: left; width:100%; list-style: none; margin: 0; padding: 0;}
+	#footer_servicios_links ul{ list-style: none; margin:0; padding: 0;}
+	#footer_servicios_links ul li{ list-style: none; margin:0; padding: 0; }
+	#footer_servicios_links a, #footer_productos_links a { float: left; width: 100%; margin: .4em 0; color: #8ad1b1; font-weight: 300; text-decoration: none;}
+	#footer_servicios_links a:hover, #footer_productos_links a:hover { color: #fff;}
+
+	
+	#logos_footer img{float: left;}
+
+	#galeria_footer .thumb_footer{width: 70px; float: left; margin:0; height: 70px; overflow: hidden;}
+	#galeria_footer .thumb_footer img{margin:0; width:100%}
+
+/* COLUMNAS DE 7 SERVICIOS */
+@media (min-width: 768px){
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1  {
+    width: 100%;
+    *width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+}
+
+/*********  INICIO *******/
+#inicio #grupo_productos .post-content {
+  top: 50%;
+  width: 100%;
+  left: auto;
+  position: absolute;
+  text-align: center;
+  margin-top: -8%;
+}
+#inicio #grupo_productos .post-content h3{margin:0px; padding: 0px 20px;}
+#inicio #grupo_productos .post-content a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 21px;
+  line-height: 14px;
+  text-shadow: 0px 0px 15px rgba(0,0,0,.8);
+ color: #fff;
+  text-transform: uppercase;
+}
+#inicio #grupo_productos .post-content a:hover{color: #f2f2f2;}
+#inicio .videoContainer {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  max-height: 468px;
+}
+#inicio .videoContainer .gradient, #carousel-novedades .gradient,  #inicio .videoContainer .gradient, #carousel-productos .gradient, #grupo_de_productos .gradient{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0px;
+  left: 0px;
+  background: url(../img/gradient_video.png) repeat-x left bottom;
+  background-size: 1px 300px;
+}
+#inicio .videoContainer:after {
+	content:"";
+	display:block;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-94px;
+	margin-top:-94px;
+	width:188px;
+	height:188px;
+	background:url(../img/play_btn.png) no-repeat center center;
+}
+#inicio .videoContainer .caption {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	color: white;
+	padding: 30px;
+}
+#inicio .videoContainer .caption h3 {
+  padding: 0px 0px 10px 0px;
+  font-size: 38px;
+  letter-spacing: -2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0px;
+  line-height: 30px;
+}
+#inicio .videoContainer .caption p{
+	margin:0px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+/*********  LA EMPRESA *******/
+
+#la_empresa #wrapp_carousel_la_empresa{  width: 100%;clear:both; }
+
+#la_empresa #mision_objetivos{margin-top: 2em; margin-bottom: 2em; }
+#la_empresa #nuestros_valores{margin-top: 2em;}
+#la_empresa #maderera_pinar{margin-top: 2em;}
+
+/*********  GRUPO DE PRODUCTOS *******/
+#grupo_de_productos .item a{color: #fff}
+
+#grupo_producto #carousel-productos img{width: 100%;}
+#grupo_producto #thumbs_productos img{  width: 90px; height: 90px;}
+#grupo_producto #thumbs_productos a{ float:left; display:block; width: 90px; height: 90px; margin: .4em .4em 0 0;}
+#grupo_producto #adjunto_producto a{font-size:14px; background: #018249; color: #fff; border:0; margin: .8em 0; padding: .5em .8em;}
+#grupo_producto #adjunto_producto a:hover{text-decoration: none; background: #799b34}
+
+
+
+/*********  SERVICIOS *******/
+#servicios .iconos_servicios .imagenServicio{
+	margin-bottom:30px;
+}
+#servicios .headerTitle{
+	margin-bottom:30px;
+}
+.iconos_servicios .linkServicio {
+  border: 1px solid #eaeaea;
+  margin-bottom: 25px;
+}
+
+.linkServicio {
+	display: block;
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 20px 0px;
+	-webkit-transition: background 300ms ease-in-out;
+	-moz-transition: background 300ms ease-in-out;
+	-ms-transition: background 300ms ease-in-out;
+	-o-transition: background 300ms ease-in-out;
+	transition: background 300ms ease-in-out;
+}
+.linkServicio:hover {
+	background:#008348;
+}
+.linkServicio .icon{
+	display: block;
+	min-height: 135px;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+.linkServicio .iconHide{
+	display:none;
+}
+
+/*********  SERVICIO DETALLE *******/
+#servicio_detalle #info_sucursales {padding-top: 0}
+
+#servicio_detalle #info_sucursales h2{margin-top: 0;}
+
+
+/*********  NOVEDADES *******/
+#novedades .post-content {top:60%;left:auto;position: absolute;}
+#novedades .post-content a {color: #fff; text-decoration: none;}
+#novedades .post-content a:hover{color: #f28e1c; text-decoration: none;}
+#carousel-novedades .carousel-indicators,#carousel-productos .carousel-indicators{
+	display:none!important;
+}
+#carousel-novedades .carousel-caption,#carousel-productos .carousel-caption{
+	font-size:26px;
+	left:25px;
+	bottom:40px;
+	top:auto;
+	right:auto;padding:0px;
+	padding:0px;
+}
+#carousel-novedades .carousel-caption a, #carousel-productos .carousel-caption a{
+	color:#FFF;
+}
+#carousel-novedades .carousel-caption.date, #carousel-productos .carousel-caption.date{
+	font-size:12px;
+	left:25px;
+	bottom:25px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#carousel-novedades .gradient ,#carousel-productos .gradient {
+  background-size: 1px 200px;
+}
+
+#grupo_de_productos .carousel.grupoProductos{margin-bottom:30px;}
+#grupo_de_productos .carousel.grupoProductos .carousel-caption{
+	margin:0px;
+	padding:0px;
+	bottom:15px;
+	left:15px;
+	text-align: left;
+	font-size:18px;
+	color:#FFF;
+	text-decoration:none;
+	text-shadow:none;
+}
+#grupo_de_productos .carousel.grupoProductos a{
+ display:block;
+}
+#grupo_de_productos .carousel.grupoProductos a:hover .carousel-caption{
+	color:#f28e1c;
+	text-shadow:0px 1px 10px rgba(0,0,0,.5);
+}
+#grupo_de_productos .gradient {
+  background-size: 1px 101%!important;
+}
+#grupo_de_productos .carousel-control.right, #grupo_de_productos .carousel-control.left{
+background:none;
+}
+
+/*********  SUCURSALES *******/
+#sucursales #datos_sucursal{margin:0; padding: 0; font-size: 14px;}
+#sucursales #datos_sucursal li{margin-bottom: .5em; list-style: none;}
+#sucursales #datos_sucursal i{color: #018249; margin-right: .5em;}
+#sucursales #form_contacto input{width: 100%; padding: .5em;border:1px solid #018249; margin-bottom: 1em;}
+#sucursales #form_contacto select{width: 49%; padding: .5em; margin-bottom: 1em;border:1px solid #018249;}
+#sucursales #form_contacto textarea{width: 100%; padding: .3em; margin-bottom: 1em;border:1px solid #018249;}
+#sucursales #form_contacto #wrapp_container{text-align: center;}
+#sucursales #form_contacto button{padding: .6em 2em; background: #018249; color: #fff; border:0;}
+#sucursales iframe{width: 100%}
+
+/*********  NOVEDADES *******/
+#novedades_detalle .post-content {top:60%; left:40px;position: absolute;}
+#novedades_detalle .post-content h3{color: #fff;  text-shadow: 1px 1px #000;}
+#novedades_detalle .post-content p{color: #fff;  text-shadow: 1px 1px #000; font-size: 16px;}
+#novedades_detalle #contenido_novedad{font-size: 12px;}
+
+/*********  CAPACITACIONES *******/
+#capacitaciones h1{color: #f28e1c;}
+#capacitaciones #navegacion_capacitaciones{font-size: 14px; width: 100%; background: #018249; color: #F2F2F2; padding: .8em 0 .8em 0;}
+#capacitaciones #navegacion_capacitaciones i{padding-top: -30px}
+#capacitaciones #navegacion_capacitaciones a{color: #fff; font-size: 16px; padding: 0 1em 0 1em;}
+#capacitaciones #navegacion_capacitaciones a:hover{color: #f2f2f2}
+#capacitaciones #navegacion_capacitaciones #mes_en_curso{font-weight: bold; color: #fff; font-size: 20px;}
+#capacitaciones #navegacion_capacitaciones .meses_anteriores{padding: 0 1em;}
+#capacitaciones .dia_capacitacion{font-size: 80px; font-weight: bold; text-align: center;padding-top: .5em; color: #018249;}
+
+#capacitaciones .cuadro_capacitacion hr{border-bottom: 1px solid green}
+
+#capacitaciones .cuadro_capacitacion h2{color: #f28e1c; font-weight: normal; font-size: 24px}
+#capacitaciones .sin_capacitaciones{text-align: center;color: #b2b2b2;}
+
+
+
+/*********    IMAGES CAROUSEL *******/
+.carousel .item>img {
+
+  min-width: 100%;
+
+}
